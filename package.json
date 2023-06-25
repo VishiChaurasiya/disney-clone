@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "tailwind": "tailwindcss build ./src/index.css -o ./public/tailwind.css"
+    "tailwind": "tailwindcss build -i ./src/index.css -o ./public/tailwind.css --watch"
   },
   "dependencies": {
     "axios": "^1.4.0",
